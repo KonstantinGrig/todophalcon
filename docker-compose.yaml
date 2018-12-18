@@ -2,16 +2,6 @@ version: '3.6'
 
 services:
 
-#  phalcon:
-#    build: apache
-#    container_name: 'todo-phalcon-container'
-#    working_dir: /app
-#    environment:
-#      XDEBUG_CONFIG: "remote_host=192.168.0.101 remote_port=9000 remote_enable=1"
-#    volumes:
-#    - ../:/app
-#    - /tmp:/tmp
-
   mysql:
     image: mysql:5.7.20
     ports:
